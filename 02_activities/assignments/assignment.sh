@@ -37,7 +37,10 @@ mv ./rawdata ./data/raw
 ls "./data/raw directory"
 
 # 4. In ./data/processed, create the following directories: server_logs, user_logs, and event_logs
-cd ".data/processed"
+pwd
+cd .data
+pwd
+ls
 mkdir "server_logs"
 mkdir "user_logs"
 mkdir "event_logs"
